@@ -429,6 +429,7 @@ public class GiteaSCMSource extends AbstractGitSCMSource {
                     .path(UriTemplateBuilder.var("owner"))
                     .path(UriTemplateBuilder.var("repository"))
                     .path("src")
+                    .path("branch")
                     .path(UriTemplateBuilder.var("branch"))
                     .build()
                     .set("owner", repoOwner)
